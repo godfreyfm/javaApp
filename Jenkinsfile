@@ -1,10 +1,10 @@
 pipeline {
     agent any
 
-    environment {
-        // Define any environment variables here
-        // Example: PATH = "/usr/local/bin:$PATH"
-    }
+    // environment {
+    //     // Define any environment variables here
+    //     // Example: PATH = "/usr/local/bin:$PATH"
+    // }
 
     stages {
         stage('Checkout') {
