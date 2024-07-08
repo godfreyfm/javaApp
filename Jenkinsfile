@@ -7,13 +7,7 @@ pipeline {
     // }
 
     stages {
-        stage('Checkout') {
-            steps {
-                // Checkout the code from the repository
-                echo "Checking out the application..."
-            }
-        }
-
+      
         stage('Build') {
             steps {
                 // Run your build commands here
